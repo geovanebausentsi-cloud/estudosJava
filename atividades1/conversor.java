@@ -1,5 +1,5 @@
 
-package atividades;
+package Atividades1;
 import java.util.Scanner;
 
 public class conversor {
