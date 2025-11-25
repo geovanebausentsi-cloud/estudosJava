@@ -1,34 +1,40 @@
-package variaveis_constantes;//localização
-
-import java.util.Scanner;
+package Variaveis_constantes;//localização
 
 public class Main {
 
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-
-        System.out.println("Voce é capaz se ser um programador java?");
-        String resposta = entrada.next();
-
-        System.out.println("Qual sua idade?");
-        int idade = entrada.nextInt();
-
-        System.out.println("Digite seu bloco?");
-        char bloco = entrada.next().charAt(0);
-
-        System.out.println("Você passa por inseguranças alimentares?");
-        boolean TrueOrFalse = entrada.nextBoolean();
-
-        System.out.println("Qual seu salário?");
-        float salario = entrada.nextFloat();
-
-        System.out.println("Digite um numero grande com virgula");
-        double numeroGrandeCVirgula = entrada.nextDouble();
-
-        System.out.printf("Programado: %s, idade: %d, bloco: %c, insegurança alimentar: %b, salario: %.2f, numero grande %.2f",
-                resposta, idade, bloco, TrueOrFalse, salario, numeroGrandeCVirgula);
+      
+        int numero = 10;
+        float numero2 = 1.2f;
+        double numero3 = 10.5;
+        char letra = 'a';
+        boolean trueFalse = true;
+        
+        System.out.printf("numero: %d, numero2: %f,  numero3: %f, letra: %c, trueFalse: %b", numero, numero2, numero3, letra, trueFalse );
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //ficar bastante atento a entrada de dados do usuario nos numeros decimais principalmente 
 //boolean: %b (Formata o valor como true ou false)
